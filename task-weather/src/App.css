@@ -1,0 +1,78 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1f1f1f;
+padding: 0;
+  margin: 0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.weather-card {
+  background-color: #2b2e35;
+  border-radius: 20px;
+  width: 200px;
+  padding: 20px;
+  text-align: left;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.weather-icon {
+  position: absolute;
+  top: -60px;
+  right: -15px;
+  background-image: linear-gradient(to right, red , yellow);
+  padding: 60px;
+  border-radius: 50%;
+}
+
+
+
+.weather-details {
+  margin-top: 60px;
+}
+
+.weather-details h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.weather-details h2 span {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.weather-details p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #b0b0b0;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px 15px;
+  border-radius: 25px;
+
+  background-color:#24343D;
+  font-size: 16px;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
